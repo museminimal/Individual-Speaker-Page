@@ -47,3 +47,32 @@
 .selected-text {
   color: $selected-text;
 }
+
+.interactive-link::before {
+  content: '';
+  background: url('../img/arrows/round-arrow.png') no-repeat center/contain;
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 5px;
+  left: 0;
+  right: 0;
+}
+
+.interactive-link {
+  position: relative;
+  padding: 15px 80px 15px 56px;
+  margin-left: 15%;
+  text-transform: uppercase;
+  font-family: $main-font;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  color: $link-color;
+}
+
+.interactive-link-inner {
+  max-width: 300px;
+  margin: 0 auto;
+}

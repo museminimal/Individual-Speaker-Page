@@ -1,12 +1,14 @@
 .contacts__title {
   text-align: center;
-  font-family: $main-font;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 64px;
   line-height: 78px;
   color: $text-color;
+  padding-bottom: 80px;
 }
 
 .contacts {
-  padding-bottom: 80px;
+  padding-bottom: 200px;
 }
+
