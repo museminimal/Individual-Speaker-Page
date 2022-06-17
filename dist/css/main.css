@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.eot"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.eot"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("../fonts/Montserrat-ExtraBold.eot"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.ttf") format("truetype"), url("../fonts/Montserrat-ExtraBold.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.eot"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat-Medium.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 header {
   padding: 35px 50px;
 }
@@ -48,18 +72,6 @@ body {
   font-family: sans-serif;
 }
 
-@font-face {
-  font-family: "Montserrat-Regular";
-  src: url("../fonts/Montserrat-Regular.eot"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#webfont") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat-Bold";
-  src: url("../fonts/Montserrat-Bold.eot"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold.svg#webfont") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 .link-block::before {
   content: "";
   background: url("../img/arrows/arrow-1.png") no-repeat center/contain;
@@ -129,6 +141,19 @@ body {
   padding-bottom: 200px;
 }
 
+.contacts__title {
+  text-align: center;
+  font-family: "Montserrat-Regular";
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 78px;
+  color: #323232;
+}
+
+.contacts {
+  padding-bottom: 80px;
+}
+
 .container {
   max-width: 1500px;
   margin: 0 auto;
@@ -164,4 +189,8 @@ body {
   font-size: 16px;
   color: #1B1B1B;
   line-height: 22.4px;
+}
+
+.selected-text {
+  color: #22BAC9;
 }

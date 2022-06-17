@@ -1,9 +1,10 @@
+@import "fonts";
 @import "vars";
 @import "libs";
 @import "reset";
-@import "fonts";
 @import "speakers";
 @import "sessions";
+@import "contacts";
 
 .container {
   max-width: 1500px;
@@ -43,3 +44,6 @@
   line-height: 22.4px;
 }
 
+.selected-text {
+  color: $selected-text;
+}
