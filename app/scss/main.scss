@@ -3,6 +3,7 @@
 @import "reset";
 @import "fonts";
 @import "speakers";
+@import "sessions";
 
 .container {
   max-width: 1500px;
@@ -32,13 +33,6 @@
   max-width: 850px;
   margin-left: 13%;
 
-}
-
-.title_regular {
-  font-family: $main-font;
-  font-weight: 700;
-  font-size: 24px;
-  color: $text-color;
 }
 
 .descr-text-style {

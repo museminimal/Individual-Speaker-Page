@@ -54,6 +54,12 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.eot"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .link-block::before {
   content: "";
   background: url("../img/arrows/arrow-1.png") no-repeat center/contain;
@@ -90,6 +96,39 @@ body {
   justify-content: space-between;
 }
 
+.speakers {
+  padding-bottom: 50px;
+}
+
+.speakers__title {
+  font-family: "Montserrat-Regular";
+  font-weight: 700;
+  font-size: 24px;
+  color: #323232;
+}
+
+.sessions__title {
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+  color: #323232;
+  padding-bottom: 50px;
+}
+
+.sessions__menu-nav-link {
+  font-family: "Montserrat-Regular";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #323232;
+  display: block;
+  padding-bottom: 40px;
+}
+
+.sessions {
+  padding-bottom: 200px;
+}
+
 .container {
   max-width: 1500px;
   margin: 0 auto;
@@ -117,13 +156,6 @@ body {
 .additional_container {
   max-width: 850px;
   margin-left: 13%;
-}
-
-.title_regular {
-  font-family: "Montserrat-Regular";
-  font-weight: 700;
-  font-size: 24px;
-  color: #323232;
 }
 
 .descr-text-style {

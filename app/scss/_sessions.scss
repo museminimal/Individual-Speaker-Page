@@ -1,0 +1,21 @@
+.sessions__title {
+  font-family: $bold-font;
+  font-size: 24px;
+  color: $text-color;
+  padding-bottom: 50px;
+}
+
+.sessions__menu-nav-link {
+  font-family: $main-font;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: $text-color;
+  display: block;
+  padding-bottom: 40px;
+}
+
+.sessions {
+  padding-bottom: 200px;
+}
