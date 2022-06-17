@@ -1,0 +1,51 @@
+@import "vars";
+@import "libs";
+@import "reset";
+@import "fonts";
+@import "speakers";
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.main-text {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  color: $text-color;
+  font-family: $main-font;
+}
+
+.button {
+  padding: 10px 89px;
+  border-color: $black-color;
+  border-width: 1px;
+  text-transform: uppercase;
+  font-family: $main-font;
+  font-weight: 600;
+  font-size: 14px;
+  background: $white-color;
+}
+
+.additional_container {
+  max-width: 850px;
+  margin-left: 13%;
+
+}
+
+.title_regular {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 24px;
+  color: $text-color;
+}
+
+.descr-text-style {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 16px;
+  color: $descr-text-style;
+  line-height: 22.4px;
+}
+

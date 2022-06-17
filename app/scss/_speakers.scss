@@ -1,0 +1,35 @@
+.link-block::before {
+  content: '';
+  background: url('../img/arrows/arrow-1.png') no-repeat center/contain;
+  display: block;
+  position: absolute;
+  width: 31px;
+  height: 8px;
+  top: 4px;
+  left: 0;
+  right: 0;
+}
+
+.link-block {
+  position: relative;
+  padding-left: 51px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: $secondary_text-color;
+  font-family: $main-font;
+  font-weight: bold;
+}
+
+.speakers__back-link {
+  padding-bottom: 50px;
+}
+
+.speakers__description-text {
+  padding-top: 30px;
+  max-width: 470px;
+}
+
+.speakers__description {
+  display: flex;
+  justify-content: space-between;
+}

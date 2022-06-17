@@ -1,0 +1,135 @@
+header {
+  padding: 35px 50px;
+}
+
+.header__inner {
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  padding-left: 101px;
+  display: flex;
+}
+
+.nav__nav-link {
+  display: block;
+}
+
+.nav__nav-item:not(:last-child) {
+  padding-right: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.eot"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.link-block::before {
+  content: "";
+  background: url("../img/arrows/arrow-1.png") no-repeat center/contain;
+  display: block;
+  position: absolute;
+  width: 31px;
+  height: 8px;
+  top: 4px;
+  left: 0;
+  right: 0;
+}
+
+.link-block {
+  position: relative;
+  padding-left: 51px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #505050;
+  font-family: "Montserrat-Regular";
+  font-weight: bold;
+}
+
+.speakers__back-link {
+  padding-bottom: 50px;
+}
+
+.speakers__description-text {
+  padding-top: 30px;
+  max-width: 470px;
+}
+
+.speakers__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.main-text {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #323232;
+  font-family: "Montserrat-Regular";
+}
+
+.button {
+  padding: 10px 89px;
+  border-color: #000000;
+  border-width: 1px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular";
+  font-weight: 600;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.additional_container {
+  max-width: 850px;
+  margin-left: 13%;
+}
+
+.title_regular {
+  font-family: "Montserrat-Regular";
+  font-weight: 700;
+  font-size: 24px;
+  color: #323232;
+}
+
+.descr-text-style {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  color: #1B1B1B;
+  line-height: 22.4px;
+}

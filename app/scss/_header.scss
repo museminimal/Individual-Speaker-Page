@@ -1,4 +1,27 @@
-.header {
-  padding: 35px 50px 50px;
-  background: red;
+header {
+  padding: 35px 50px;
+}
+
+.header__inner {
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  padding-left: 101px;
+  display: flex;
+}
+.nav__nav-link {
+  display: block;
+}
+
+.nav__nav-item:not(:last-child) {
+  padding-right: 50px;
 }
