@@ -10,6 +10,27 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: sans-serif;
+}
+
 header {
   padding: 35px 50px;
 }
@@ -36,27 +57,6 @@ header {
 
 .nav__nav-item:not(:last-child) {
   padding-right: 50px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-*::after, *::before {
-  box-sizing: border-box;
-}
-
-body, html {
-  overflow-x: hidden;
-}
-
-body {
-  font-family: sans-serif;
 }
 
 .link-block::before {
@@ -125,7 +125,7 @@ body {
 }
 
 .sessions {
-  padding-bottom: 200px;
+  padding-bottom: 160px;
 }
 
 .contacts__title {
@@ -139,11 +139,43 @@ body {
 }
 
 .contacts {
-  padding-bottom: 200px;
+  padding-bottom: 150px;
+}
+
+.footer__inner {
+  background: #ECEFF4;
+  padding-top: 50px;
+  padding-bottom: 62px;
+}
+
+.footer__top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo-inner {
+  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 166px;
+}
+
+.footer__logo {
+  margin-left: 13%;
 }
 
 .container {
   max-width: 1500px;
+  margin: 0 auto;
+}
+
+.additional_container {
+  max-width: 850px;
+  margin-left: 13%;
+}
+
+.interactive-link-inner {
+  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -153,22 +185,6 @@ body {
   font-weight: 600;
   color: #323232;
   font-family: "Montserrat-Regular";
-}
-
-.button {
-  padding: 10px 89px;
-  border-color: #000000;
-  border-width: 1px;
-  text-transform: uppercase;
-  font-family: "Montserrat-Regular";
-  font-weight: 600;
-  font-size: 14px;
-  background: #ffffff;
-}
-
-.additional_container {
-  max-width: 850px;
-  margin-left: 13%;
 }
 
 .descr-text-style {
@@ -181,6 +197,18 @@ body {
 
 .selected-text {
   color: #22BAC9;
+}
+
+.button {
+  padding: 10px 89px;
+  border-color: #000000;
+  border-width: 1px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular";
+  font-weight: 600;
+  font-size: 14px;
+  background: #ffffff;
+  cursor: pointer;
 }
 
 .interactive-link::before {
@@ -198,7 +226,6 @@ body {
 .interactive-link {
   position: relative;
   padding: 15px 80px 15px 56px;
-  margin-left: 15%;
   text-transform: uppercase;
   font-family: "Montserrat-Regular";
   font-weight: 600;
@@ -207,7 +234,6 @@ body {
   color: #202020;
 }
 
-.interactive-link-inner {
-  max-width: 300px;
-  margin: 0 auto;
+.indent-left {
+  margin-left: 15%;
 }
